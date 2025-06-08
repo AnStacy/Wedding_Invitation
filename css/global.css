@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Kapakana:wght@300..400&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-font-family: "Kapakana", cursive;
+  --font-base: "Advent Pro", sans-serif;
+  --header-text-color: #fff;
+  --title-color: #000;
+}
+
+img,
+video,
+iframe {
+  display: block;
+  width: 100%;
+  border: 0;
+}
+
+.container {
+  max-width: 470px;
+  width: 100%;
+  margin: auto;
+}
